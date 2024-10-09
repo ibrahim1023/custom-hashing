@@ -1,0 +1,21 @@
+[package]
+name = "custom-hashing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For benchmarking and profiling the performance of hashing algorithms
+criterion = "0.4"
+
+# For bitwise operations and advanced number manipulations
+bit-vec = "0.6.3"
+
+# Utility for testing hashes and secure comparisons
+constant_time_eq = "0.1"
+
+[dev-dependencies]
+# For unit and integration testing
+assert_cmd = "2.0"
+
+[features]
+default = []
